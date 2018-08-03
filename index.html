@@ -245,59 +245,20 @@
             </div>
           </div>
 
-        //<?php
+        
 
-         if(isset($_POST['nom'])) {
-
-            $nom = htmlspecialchars($_POST['nom']);
-            $email = htmlspecialchars($_POST['email']);
-            $message = htmlspecialchars($_POST['message']);
-
-
-            if (!empty($_POST['nom']) && !empty($_POST['email']) && !empty($_POST['message'])) {
-
-              $destinataire = 'elodev@sfr.fr';
-              $sujet = 'Un nouveau mail vous a était envoyez depuis votre site.';
-              $contenu = '<html><head><title>Nouveau message</title></head><body>';
-                $contenu .= '<p>Bonjour, vous avez reçu un message à partir de votre site web.</p>';
-                $contenu .= '<p><strong>Nom</strong>: ' . $nom . '</p>';
-                $contenu .= '<p><strong>Email</strong>: ' . $email . '</p>';
-                $contenu .= '<p><strong>Message</strong>: ' . $message . '</p>';
-                $contenu .= '</body></html>';
-
-                // Pour envoyer un email HTML, l'en-tête Content-type doit être défini
-                $headers = 'MIME-Version: 1.0' . "\r\n";
-                $headers .= 'Content-type: text/html; charset=utf-8' . "\r\n";
-
-                // Envoyer l'email
-                mail($destinataire, $sujet, $contenu, $headers); // Fonction principale qui envoi l'email
-                $confirm = 'Message envoyé !';
-
-
-
-
-              } else {
-                $error = 'Veuillez remplir tout les champs !';
-              }
-            }
-            ?>
-
-            <div class="col-sm-6">
+          <div class="col-sm-6">
               <h2 class="con-title">Écrivez-moi</h2>
-              <form method="POST" role="form">
-                <div class="form-group">
-                  <input type="text" class="form-control" name="nom" id="user_name" placeholder="Entrer votre nom">
-                </div>
-                <div class="form-group">
-                  <input type="email" class="form-control" name="email" id="your_email" placeholder="Entrer votre email">
-                </div>
-                <div class="form-group">
-                  <input id="user_message" name="message" class="form-control" required>
-                </div>
-
-                <button type="submit" class="btn medium">Envoyer</button>
-              </form>
-        <?php if(isset($confirm)){echo $confirm;}?>
+		<form method="POST" action="https://formspree.io/elodev@sfr.fr">
+			<div class="form-group">
+			<input type="text" class="form-control" name="name" placeholder="Votre nom"></div>
+			<div class="form-group">
+			<input type="email" class="form-control" name="email" placeholder="Votre mail"></div>
+			<div class="form-group">
+			<textarea name="message" class="form-control" placeholder="Votre message"></textarea>
+			</div>
+			<button type="submit" class="btn medium">Envoyer</button>
+		</form>
             </div>
           </div>
         </div><!-- container -->
@@ -330,7 +291,7 @@
             <p class="copyright">© Eloïse HALL 2018 <a href="#" target="_blank"></a></p>
           </div>
           <div class="col-sm-6">
-            <!--<p class="designed">Theme by <a href="http://themewagon.com" target="_blank">Themewagon</a></p>-->
+            <!--<p class="designed">Theme by <a href="" target="_blank">...</a></p>-->
           </div>
         </div>
       </div>
