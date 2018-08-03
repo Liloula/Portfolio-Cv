@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Éloïse HALL</title>
+
+  <!-- meta -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <!-- stylesheets -->
+  <link rel="shortcut icon" href="images/favicon.ico">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="font_icon/css/pe-icon-7-stroke.css">
+  <link rel="stylesheet" href="font_icon/css/helper.css">
+  <link rel="stylesheet" href="css/owl.carousel.css">
+  <link rel="stylesheet" href="css/owl.theme.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- google fonts -->
+  <link href='http://fonts.googleapis.com/css?family=Dosis:200,300,400,500|Lato:300,400,700,900,300italic,400italic,700italic,900italic|Raleway:400,200,300,500,100|Titillium+Web:400,200,300italic,300,200italic' rel='stylesheet' type='text/css'>
+
+
+
+</head>
+<body id="body">
+
+  <!-- Header area -->
+  <header id="header">
+    <div class="center text-center">
+      <h1 class="bigheadline">Éloïse HALL</h1>
+      <h4 class="subheadline">Intégratrice, Développeuse Web</h4>
+    </div>
+    <div class="bottom">
+      <!--<a data-scroll href="#navigation" class="scrollDown animated pulse" id="scrollToContent"><i class="pe-7s-angle-down-circle pe-va"></i></a>-->
+    </div>
+  </header>
+
+  <!-- Navigation area -->
+  <section id="navigation">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-6">
+          <div class="logo"><a data-scroll href="#body" class="logo-text">Éloïse HALL</a></div>
+        </div>
+        <div class="col-xs-6">
+          <div class="nav">
+            <a href="#" data-placement="bottom" title="Menu" class="menu" data-toggle="dropdown"><i class="pe-7s-menu"></i></a>
+            <div class="dropdown-menu">
+              <div class="arrow-up"></div>
+              <ul>
+                <li><a data-scroll href="#body">Home <i class="pe-7s-home"></i></a><span class="menu-effect"></span></li>
+                <li><a data-scroll href="#portfolio">Projets <i class="pe-7s-glasses"></i></a><span class="menu-effect"></span></li>
+                <li><a data-scroll href="#progression">Compétences <i class="pe-7s-config"></i></a><span class="menu-effect"></span></li>
+                <li><a data-scroll href="#testimonial">Témoignages <i class="pe-7s-comment"></i><span class="menu-effect"></span></a></li>
+                <li><a data-scroll href="#contact">Contact <i class="pe-7s-help1"></i></a><span class="menu-effect"></span></li>
+                <li><a data-scroll href="images/cv-eloise.png" target="_blank"><i class="pe-7s-id pe-dj pe-va"></i><span>CV télécharger ici</span></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Content Area -->
+
+
+  <!-- Portfolio Area -->
+
+  <section id="portfolio" class="portfolio-area">
+    <div class="container">
+      <h2 class="block_title">Mes Projets</h2>
+      <div class="row port cs-style-3">
+        <div class="col-md-4 col-sm-6 col-xs-12 item-space">
+          <figure>
+            <img src="images/ml.png" alt="img01">
+            <figcaption>
+              <h3>Mission Locale</h3> <br>
+              <p>HTML, CSS, JUCER, DIALOGFLOW, WORDPRESS</p>
+              <a href="http://www.missionlocale-paysyonnais.org/" class="button" target="_blank">Regardez</a>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12 item-space">
+          <figure>
+            <img src="images/emailing1.png" alt="img02">
+            <figcaption>
+              <h3>Emailing</h3> <br>
+              <p>MAILCHIMP, HTML, CSS</p>
+              <a href="http://mailchi.mp/b87d2f423d6d/prparer-les-soldes" class="button" target="_blank">Regardez</a>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12 item-space">
+          <figure>
+            <img src="images/loso.png" alt="img03">
+            <figcaption>
+              <h3>LOSO</h3> <br>
+              <p>HTML, CSS, BOOTSTRAP, JQUERY, ANIMATE</p>
+              <a href="https://liloula.github.io/Projet-LoSo/" class="button" target="_blank">Regardez</a>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12 item-space">
+          <figure>
+            <img src="images/voyage.jpg" alt="img04">
+            <figcaption>
+              <h3>Agence de voyages</h3> <br>
+              <p>HTML, CSS, BOOTSTRAP</p>
+              <a href="https://liloula.github.io/Projet-John/" class="button" target="_blank">Regardez</a>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12 item-space">
+          <figure>
+            <img src="images/burger.png" alt="img05">
+            <figcaption>
+              <h3>Burger code</h3> <br>
+              <p>HTML, CSS, PHP, MYSQL</p>
+              <a href="file:///Applications/MAMP/htdocs/burgerCode/index.html" class="button" target="_blank">Regardez</a>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12 item-space">
+          <figure>
+            <img src="images/soleil-et-cheveux.jpg" alt="img06">
+            <figcaption>
+              <h3>Météo</h3> <br>
+              <p>HTML, CSS, JAVASCRIPT</p>
+              <a href="https://liloula.github.io/Meteo2/" class="button" target="_blank">Regardez</a>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-xs-12">
+          <div class="btn-center"><a href="index2.html" class="big button" target="_blank" >Voir tout</a></div>
+        </div>
+      </div>
+    </div><!-- container -->
+  </section><!-- portfolio -->
+
+
+  <!--barre de progression-->
+  <section id="progression">
+    <div class="container">
+      <div class="row">
+        <h2 class="block_title">Compétences</h2>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="col-md-3">
+        <ul id="skill">
+          <li><span class="bar html"></span><h3>Html</h3></li>
+          <li><span class="bar css"></span><h3>Css</h3></li>
+          <li><span class="bar javascript"></span><h3>Javascript</h3></li>
+          <li><span class="bar php"></span><h3>Php</h3></li>
+        </ul>
+      </div>
+
+      <div class="col-md-3">
+        <ul id="skill">
+          <li><span class="bar prestashop"></span><h3>Prestashop</h3></li>
+          <li><span class="bar wordpress"></span><h3>Wordpress</h3></li>
+          <li><span class="bar moodle"></span><h3>Moodle</h3></li>
+          <li><span class="bar react"></span><h3>React</h3></li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <ul id="skill">
+          <li><span class="bar jekyll"></span><h3>Jekyll</h3></li>
+          <li><span class="bar emailing"></span><h3>Emailing</h3></li>
+          <li><span class="bar dialogflow"></span><h3>DialogFlow</h3></li>
+          <li><span class="bar juicer"></span><h3>Juicer</h3></li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <ul id="skill">
+          <li><span class="bar seo"></span><h3>SEO</h3></li>
+          <li><span class="bar magento"></span><h3>Magento</h3></li>
+          <li><span class="bar bootstrap"></span><h3>bootstrap</h3></li>
+          <!-- <li><span class="bar "></span><h3>Juicer</h3></li>-->
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonial Area -->
+
+  <section id="testimonial" class="testimonial-area">
+    <div class="container">
+      <h2 class="block_title">Témoignages</h2>
+      <div class="row">
+        <div class="col-xs-12">
+        </div>
+        <div id="testimonial-container" class="col-xs-12">
+          <div class="testimonial-block">
+            <img src="images/Carole-MARTIN-directrice.jpg" alt="clients" class="selfshot">
+            <p>Je tenais à vous remercier pour le travail de qualité effectué </p>
+            <strong>M<sup>me</sup> MARTIN Carole</strong>
+            <br>
+            <p>Directrice Mission Locale du Pays Yonnais</p>
+          </div>
+          <div class="testimonial-block">
+            <img src="images/c0017abb7c9c7cf363653a661382c4d4_400x400.jpeg" alt="formateur" class="selfshot">
+            <p>Bravo pour votre travail .</p>
+            <strong>M. SOULARD François</strong>
+            <br>
+            <p>Agence CUBE</p>
+          </div>
+          <div class="testimonial-block">
+            <img src="images/gaelle.jpeg" alt="collegue" class="selfshot">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem sed mollitia illum! Molestiae dignissimos, hic dolorem et eius ut nobis. Corrupti totam amet aperiam aut voluptate nobis dolor at soluta.</p>
+            <strong>M<sup>me</sup> GIBIER Gaëlle</strong>
+            <br>
+            <p>Infographiste, Developpeuse Web</p>
+          </div>
+        </div>
+      </div>
+    </div><!-- container -->
+  </section><!-- testimonial -->
+
+  <!-- Contact Area -->
+
+  <section id="contact" class="cafeWrap">
+    <div id="cafe" style="width:100%;"></div>
+    <div id="contact-area">
+      <div class="container">
+        <h2 class="block_title">Prenons un café !</h2>
+        <div class="row">
+          <div class="col-xs-12">
+          </div>
+          <div class="col-sm-6">
+            <div class="moreDetails">
+              <h2 class="con-title">À propos</h2>
+              <p> Après une formation de développeuse web au Centre Arinfo, ou j'ai appris différents langages afin de devenir intégratrice web. </p>
+              <ul class="address">
+                <li><i class="pe-7s-map-marker"></i><span>85000 La Roche sur Yon<br>France<br></span></li>
+                <li><i class="pe-7s-mail"></i><span><script>document.write(' elodev@' + 'sfr.fr')</script></span></li>
+                <li><i class="pe-7s-id pe-dj pe-va"></i><a href="images/cv-eloise.png" target="_blank"><span>CV télécharger ici</span></a></li>
+                <!--<li><i class="pe-7s-phone"></i><span>+1-202-555-0144</span></li>-->
+                <!--<li><i class="pe-7s-global"></i><span><a href="#">www.themewagon.com</a></span></li>-->
+              </ul>
+            </div>
+          </div>
+
+        //<?php
+
+         if(isset($_POST['nom'])) {
+
+            $nom = htmlspecialchars($_POST['nom']);
+            $email = htmlspecialchars($_POST['email']);
+            $message = htmlspecialchars($_POST['message']);
+
+
+            if (!empty($_POST['nom']) && !empty($_POST['email']) && !empty($_POST['message'])) {
+
+              $destinataire = 'elodev@sfr.fr';
+              $sujet = 'Un nouveau mail vous a était envoyez depuis votre site.';
+              $contenu = '<html><head><title>Nouveau message</title></head><body>';
+                $contenu .= '<p>Bonjour, vous avez reçu un message à partir de votre site web.</p>';
+                $contenu .= '<p><strong>Nom</strong>: ' . $nom . '</p>';
+                $contenu .= '<p><strong>Email</strong>: ' . $email . '</p>';
+                $contenu .= '<p><strong>Message</strong>: ' . $message . '</p>';
+                $contenu .= '</body></html>';
+
+                // Pour envoyer un email HTML, l'en-tête Content-type doit être défini
+                $headers = 'MIME-Version: 1.0' . "\r\n";
+                $headers .= 'Content-type: text/html; charset=utf-8' . "\r\n";
+
+                // Envoyer l'email
+                mail($destinataire, $sujet, $contenu, $headers); // Fonction principale qui envoi l'email
+                $confirm = 'Message envoyé !';
+
+
+
+
+              } else {
+                $error = 'Veuillez remplir tout les champs !';
+              }
+            }
+            ?>
+
+            <div class="col-sm-6">
+              <h2 class="con-title">Écrivez-moi</h2>
+              <form method="POST" role="form">
+                <div class="form-group">
+                  <input type="text" class="form-control" name="nom" id="user_name" placeholder="Entrer votre nom">
+                </div>
+                <div class="form-group">
+                  <input type="email" class="form-control" name="email" id="your_email" placeholder="Entrer votre email">
+                </div>
+                <div class="form-group">
+                  <input id="user_message" name="message" class="form-control" required>
+                </div>
+
+                <button type="submit" class="btn medium">Envoyer</button>
+              </form>
+        <?php if(isset($confirm)){echo $confirm;}?>
+            </div>
+          </div>
+        </div><!-- container -->
+      </div><!-- contact fin -->
+
+      <!-- reseaux sociaux -->
+      <div id="social">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <ul class="scoialinks">
+                <li class="normal-txt">Suivez moi</li>
+                <li class="social-icons"><a class="linkedin" href="http://www.linkedin.com/in/éloïse-hall/" target="_blank"></a></li>
+                <li class="social-icons"><a class="github" href="https://github.com/Liloula/" target="_blank"></a></li>
+                <li class="social-icons"><a id="prestashop" href="#"></a></li>
+                <li class="social-icons"><a id="wordpress" href="#"></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div><!-- social -->
+    </section><!-- contact -->
+
+    <!-- Footer Area -->
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <p class="copyright">© Eloïse HALL 2018 <a href="#" target="_blank"></a></p>
+          </div>
+          <div class="col-sm-6">
+            <!--<p class="designed">Theme by <a href="http://themewagon.com" target="_blank">Themewagon</a></p>-->
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Necessery scripts -->
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.actual.min.js"></script>
+    <script src="js/smooth-scroll.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/modernizr.js"></script>
+  </body>
+  </html>
